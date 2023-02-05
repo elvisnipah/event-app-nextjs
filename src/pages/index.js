@@ -14,7 +14,7 @@ export default function HomePage(props) {
           content="Browse a list of events happening anywhere"
         />
       </Head>
-      <EventList events={props.events} />;
+      <EventList events={props.events} />
     </>
   );
 }
